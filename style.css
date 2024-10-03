@@ -2,3 +2,9 @@ body {
     background-color: #FFF9E3;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+img {
+    width: 100%;
+    border-radius: 12px;
+    height: 214px;
+}
