@@ -32,3 +32,16 @@ img {
     font-weight: 600;
     color: black;
 }
+
+.name {
+    font-size: 24px;
+    font-weight: 600;
+
+    margin-top: 16px;
+}
+
+p {
+    font-size: 14px;
+    color: black;
+    line-height: 150%;
+}
