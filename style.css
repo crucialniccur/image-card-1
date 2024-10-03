@@ -9,3 +9,9 @@ img {
     height: 214px;
     object-fit: cover;
 }
+
+#container {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 20vh;
+}
