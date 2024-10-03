@@ -45,3 +45,7 @@ p {
     color: black;
     line-height: 150%;
 }
+
+.details {
+    padding: 16px 8px 8px 8px;
+}
