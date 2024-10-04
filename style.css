@@ -67,3 +67,8 @@ button {
     /* Button is a clickable element, therefore it should have a pointer cursor */
     cursor: pointer;
   }
+
+  button:focus, :hover {
+    background-color: #0077ff;
+    color: #e0efff;
+  }
