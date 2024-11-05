@@ -8,6 +8,13 @@ img {
   border-radius: 12px;
   height: 214px;
   object-fit: cover;
+  filter: grayscale(100%);
+  filter: sepia(40%);
+}
+
+img:hover {
+  filter: grayscale(0%);
+  box-shadow: 0px 18px 16px 0px;
 }
 
 #container {
