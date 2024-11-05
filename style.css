@@ -1,74 +1,69 @@
 body {
-    background-color: #FFF9E3;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #fff9e3;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 img {
-    width: 100%;
-    border-radius: 12px;
-    height: 214px;
-    object-fit: cover;
+  width: 100%;
+  border-radius: 12px;
+  height: 214px;
+  object-fit: cover;
 }
 
 #container {
-    max-width: 300px;
-    margin: 0 auto;
-    margin-top: 20vh;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 20vh;
 }
 
 .card {
-    background-color: aliceblue;
-    border: 1px solid blue;
-    padding: 8px;
-    border-radius: 12px;
+  background-color: aliceblue;
+  border: 1px solid blue;
+  padding: 8px;
+  border-radius: 12px;
 }
 
 .tag {
-    padding: 4px 8px;
-    border: 1px solid black;
+  padding: 4px 8px;
+  border: 1px solid black;
 
-    border-radius: 50px;
-    font-size: 12px;
-    font-weight: 600;
-    color: black;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  color: black;
 }
 
 .name {
-    font-size: 24px;
-    font-weight: 600;
+  font-size: 24px;
+  font-weight: 600;
 
-    margin-top: 16px;
+  margin-top: 16px;
 }
 
 p {
-    font-size: 14px;
-    color: black;
-    line-height: 150%;
+  font-size: 14px;
+  color: black;
+  line-height: 150%;
 }
 
 .details {
-    padding: 16px 8px 8px 8px;
+  padding: 16px 8px 8px 8px;
 }
 
 /* Style button element */
 button {
-    border: none;
-    padding: 12px 24px;
-    border-radius: 50px;
-  
-    font-weight: 600;
-    color: #0077ff;
-    background-color: #e0efff;
-  
-    /* Button is inline-block element by default, it need to have block display for margin: 0 auto; to work */
-    margin: 0 auto;
-    display: block;
-  
-    /* Button is a clickable element, therefore it should have a pointer cursor */
-    cursor: pointer;
-  }
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
 
-  button:focus, :hover {
-    background-color: #0077ff;
-    color: #e0efff;
-  }
+  font-weight: 600;
+  color: #0077ff;
+  background-color: #e0efff;
+
+  /* Button is inline-block element by default, it need to have block display for margin: 0 auto; to work */
+  margin: 0 auto;
+  display: block;
+
+  /* Button is a clickable element, therefore it should have a pointer cursor */
+  cursor: pointer;
+}
